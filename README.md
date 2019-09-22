@@ -27,4 +27,12 @@ Run `ng e2e` to execute the end-to-end tests via [Protractor](http://www.protrac
 ## Further help
 
 To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
-# myworld
+
+## ES6
+
+### Spread operator for more info go to [official-site](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Spread_syntax).
+Here `spread operator` is used in service, as this operator converts an array of elemens to a list of elements.
+
+<pre>
+this.ingredients.push(...ingredients);
+</pre>
