@@ -27,7 +27,6 @@ export class DataStorageService {
     const recipes = this.recipeService.getRecipes();
     this.http.put(this.URL,recipes).subscribe(
       (response) => {
-        console.log(response);
       }
     );
   }
